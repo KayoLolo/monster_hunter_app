@@ -81,4 +81,20 @@ import Monster from "../types";
             imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
     };
 
-    export const monsters : Monster[] = [rathalos, rathian, nargacuga, tigrex, zinogre, valstrax, anjanath, kushala, teostra, fatalis];
+    const velkhana : Monster = {
+            id: 11,
+            name: "Velkhana",
+            type: "Elder Dragon",
+            element: "Ice",
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+    };
+
+    const jagras : Monster = {
+            id: 12,
+            name: "Great jagras",
+            type: "Walking Dragon",
+            element: "None",
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+    };
+
+    export const monsters : Monster[] = [rathalos, rathian, nargacuga, tigrex, zinogre, valstrax, anjanath, kushala, teostra, fatalis, velkhana, jagras];
