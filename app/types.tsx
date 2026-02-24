@@ -8,5 +8,6 @@ export default interface  Monster{
     name: string;
     type: MonsterType;
     element: string;
+    isHunted: boolean;
 }
 

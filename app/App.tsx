@@ -1,8 +1,23 @@
+import { useState } from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
-import { monsters } from "../app/data/monsters";
+import { monsters as initialMonsters } from "./data/monsters";
 import MonsterCard from "./MonsterCard";
+import Monster from "./types";
+
 
 export default function App() {
+
+        const [monsters, setMonsters] = useState<Monster[]>(initialMonsters);
+
+        function handleHunt(id: number){
+                setMonsters(prev=> prev.map(monster =>
+                        monster.id == id
+                        ? {...monster, isHunted: !monster.isHunted}
+                        : monster
+                )
+
+                );
+        }
     
 
     return(
@@ -19,7 +34,7 @@ export default function App() {
                 numColumns={2}
                 data={monsters}
                 keyExtractor={(item) => item.id.toString()}
-                renderItem={({item}) => <MonsterCard monster={item}/>}>
+                renderItem={({item}) => <MonsterCard monster={item} onHunt={handleHunt}/>}>
             </FlatList>
         
             

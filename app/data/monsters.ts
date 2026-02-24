@@ -6,7 +6,8 @@ import Monster from "../types";
             name: "Rathalos",
             type: "Flying Wyvern",
             element: "Fire",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const rathian : Monster = {
@@ -14,7 +15,8 @@ import Monster from "../types";
             name: "Rathian",
             type: "Flying Wyvern",
             element: "Poison",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const nargacuga : Monster = {
@@ -22,7 +24,8 @@ import Monster from "../types";
             name: "Nargacuga",
             type: "Walking Dragon",
             element: "None",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const tigrex : Monster = {
@@ -30,7 +33,8 @@ import Monster from "../types";
             name: "Tigrex",
             type: "Walking Dragon",
             element: "None",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const zinogre : Monster = {
@@ -38,7 +42,8 @@ import Monster from "../types";
             name: "Zinogre",
             type: "Walking Dragon",
             element: "Thunder",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const valstrax : Monster = {
@@ -46,7 +51,8 @@ import Monster from "../types";
             name: "Valstrax",
             type: "Flying Wyvern",
             element: "Fire",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const anjanath : Monster = {
@@ -54,7 +60,8 @@ import Monster from "../types";
             name: "Anjanath",
             type: "Walking Dragon",
             element: "Fire",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const kushala : Monster = {
@@ -62,7 +69,8 @@ import Monster from "../types";
             name: "Kuhsala Daora",
             type: "Elder Dragon",
             element: "Wind",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const teostra : Monster = {
@@ -70,7 +78,8 @@ import Monster from "../types";
             name: "Teostra",
             type: "Elder Dragon",
             element: "Fire",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const fatalis : Monster = {
@@ -78,7 +87,8 @@ import Monster from "../types";
             name: "Fatalis",
             type: "Elder Dragon",
             element: "Dragon",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const velkhana : Monster = {
@@ -86,7 +96,8 @@ import Monster from "../types";
             name: "Velkhana",
             type: "Elder Dragon",
             element: "Ice",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                isHunted: false
     };
 
     const jagras : Monster = {
@@ -94,7 +105,8 @@ import Monster from "../types";
             name: "Great jagras",
             type: "Walking Dragon",
             element: "None",
-            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a"
+            imgUrl: "https://www.ssbwiki.com/images/4/48/Rathalos_SSBU.png?27494a",
+                                isHunted: false   
     };
 
     export const monsters : Monster[] = [rathalos, rathian, nargacuga, tigrex, zinogre, valstrax, anjanath, kushala, teostra, fatalis, velkhana, jagras];
