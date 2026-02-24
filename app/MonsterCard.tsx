@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         backgroundColor: "lightblue",
         padding: 20,
         borderRadius: 10,
-        marginBottom: 10
+        marginBottom: 10,
     },
     imgUrl: {
         width: 100,
